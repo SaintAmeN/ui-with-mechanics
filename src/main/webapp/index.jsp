@@ -12,11 +12,15 @@
 <div class="container">
     Hello bootstrap world!
     <div class="row">
-        <div class="col-6 ">
+        <div class="col-3 colored-red bordered">
             Lewa
         </div>
-        <div class="col-6">
-            Prawa
+        <div class="col-9 colored-red bordered">
+            <div class="bordered row">
+                <div class="col-3 bordered">X</div>
+                <div class="col-3 bordered">Y</div>
+                <div class="col-3 bordered">Z</div>
+            </div>
         </div>
     </div>
 </div>

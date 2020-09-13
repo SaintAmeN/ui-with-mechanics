@@ -37,7 +37,9 @@
             <div class="col-1">${car.mileage}</div>
             <div class="col-2">${car.engineCapacity}</div>
             <div class="col-2">${car.vin}</div>
-            <div class="col-1">XYZ</div>
+            <div class="col-1">
+                <a href="${pageContext.request.contextPath}/car?id=${car.id}">Details...</a>
+            </div>
         </div>
     </c:forEach>
 </div>

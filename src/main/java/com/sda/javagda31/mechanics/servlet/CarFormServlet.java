@@ -24,7 +24,7 @@ public class CarFormServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Car car = Car.builder()
-                .name(req.getParameter("nameField"))
+                .name(req.getParameter("nameValue"))
                 .registration(req.getParameter("registrationValue"))
                 .mileage(Long.parseLong(req.getParameter("mileageValue")))
                 .engineCapacity(Double.parseDouble(req.getParameter("capacityValue")))

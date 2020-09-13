@@ -21,8 +21,4 @@ public class CarListServlet extends HttpServlet {
         req.getRequestDispatcher("/car_list.jsp").forward(req, resp);
     }
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-    }
 }
