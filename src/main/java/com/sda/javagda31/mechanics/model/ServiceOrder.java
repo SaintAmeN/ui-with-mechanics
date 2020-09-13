@@ -18,7 +18,7 @@ public class ServiceOrder {
 
     private String content;
 
-    @ManyToOne
+    @ManyToOne()
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private Car car;
